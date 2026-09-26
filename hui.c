@@ -28,7 +28,7 @@ printf ( "Out of the loop at last!" ) ;
 return 0 ;
 }
 
-/*int main(){
+int main(){
     int n ;
     printf("enter number :");
     scanf("%d",&n);
@@ -60,9 +60,9 @@ return 0;
 
     }
 
-*/
 
-/*int main (){
+
+int main (){
 
 int r=0;
 int n ;
@@ -124,7 +124,7 @@ return 0 ;
 
 
 
-/*
+
 int fib(int n)
 {
     if (n == 0)
@@ -154,8 +154,7 @@ int main()
 
     return 0;
 }
-/*
-/*
+
 
 int main() {
 
@@ -193,8 +192,7 @@ printf("sum of the digits is :%d \n",sum);
 
 return 0;
 }
-*/
-/*
+
 void input(int arr[], int i, int n) {
 
     if (i == n) {
@@ -226,7 +224,7 @@ int main() {
 
 
 
-   /* int n ;
+   int n ;
 
 
     printf("enter number 1 : ");
@@ -249,54 +247,54 @@ int main() {
         }
 
 
-        }*/
+        }
 
 
 
-    // int a,b,c;
-    // printf("enter number 1 : ");
-    // scanf("%d",&a);
+int a,b,c;
+printf("enter number 1 : ");
+scanf("%d",&a);
 
-    // printf("enter number 2 : ");
-    // scanf("%d",&b);
+printf("enter number 2 : ");
+scanf("%d",&b);
 
-    // printf("enter number 3 : ");
-    // scanf("%d",&c);
+printf("enter number 3 : ");
+scanf("%d",&c);
 
-    // int max = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
-    // printf("maximum number : %d",max);
+int max = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+printf("maximum number : %d",max);
 
     
 
-    // char grade ;
-    // printf("enter your grade : ");
-    // scanf("%c",&grade);
+char grade ;
+printf("enter your grade : ");
+scanf("%c",&grade);
 
-    // grade = toupper(grade);
+grade = toupper(grade);
 
-    // switch(grade){
-    //     case 'A' :
-    //     printf("Excellent");
-    //     break;
-    //     case 'B' :
-    //     printf("Good");
-    //     break;
-    //     case 'C' :
-    //     printf("Average");
-    //     break;
-    //     case 'D' :
-    //     printf("Poor");
-    //     break;
-    //     case 'E' :
-    //     printf("Fail");
-    //     break;
-    //     default :
-    //     printf("kripya aukaat ke bahar ka grade choose na kren");
-    //     break;
-
-
+switch(grade){
+    case 'A' :
+    printf("Excellent");
+    break;
+    case 'B' :
+    printf("Good");
+    break;
+    case 'C' :
+    printf("Average");
+    break;
+    case 'D' :
+    printf("Poor");
+    break;
+    case 'E' :
+    printf("Fail");
+    break;
+    default :
+    printf("kripya aukaat ke bahar ka grade choose na kren");
+    break;
 
 
-    // }
+
+
+}
 
 
